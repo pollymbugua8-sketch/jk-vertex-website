@@ -1,0 +1,31 @@
+/* Logo and header */
+.logo {
+    width: 150px;  /* adjust as needed */
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #fff;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #007bff;
+}
